@@ -1,0 +1,8 @@
+dist/
+.DS_Store
+/.playwright-cli/
+/home.png
+/tutorial.png
+/demo.png
+/demo-dark.png
+/home-mobile.png

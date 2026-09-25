@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="按业务目标和用户角色学习本体平台的完整工作流。">
+  <title>在线教程 · 灵·洞本体工作站</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><script src="../assets/theme-init.js"></script><link rel="stylesheet" href="../assets/styles.css"><link rel="stylesheet" href="../assets/refinements.css"><script src="../assets/site.js" defer></script>
+</head>
+<body data-page="tutorial">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header"><nav class="nav shell" aria-label="主导航">
+    <a class="brand" href="../"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span><strong>灵·洞本体工作站</strong><small>ONTOLOGY STUDIO</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">菜单</button>
+    <div class="nav-links" id="nav-links"><a href="../">产品介绍</a><a aria-current="page" href="./">在线教程</a><a href="../demo/">交互演示</a><a href="../#standards">开放标准</a></div>
+    <button class="theme-toggle" type="button" aria-label="切换深浅色模式" aria-pressed="false"><span aria-hidden="true"></span></button>
+  </nav></header>
+  <main id="main">
+    <section class="page-hero shell"><p class="eyebrow">GUIDED LEARNING</p><h1>不先读说明书，先选你要完成的事。</h1><p>每条路线都从业务目标出发，说明输入、关键操作、治理边界和最终产物。完成状态只保存在当前浏览器。</p></section>
+
+    <section class="section shell tutorial-layout" aria-labelledby="journey-heading">
+      <div class="journey-nav"><p class="eyebrow">选择目标</p><h2 id="journey-heading">学习路线</h2><div class="journey-buttons" role="tablist" aria-label="学习路线">
+        <button type="button" role="tab" aria-selected="true" data-journey="data-answer"><b>数据到证据问答</b><span>首次体验 · 45 分钟</span></button>
+        <button type="button" role="tab" aria-selected="false" data-journey="ontology"><b>从零构建本体</b><span>本体工程师 · 35 分钟</span></button>
+        <button type="button" role="tab" aria-selected="false" data-journey="agent"><b>配置受控智能体</b><span>FDE / 集成 · 40 分钟</span></button>
+        <button type="button" role="tab" aria-selected="false" data-journey="delivery"><b>完成 FDE 解决方案</b><span>项目负责人 · 50 分钟</span></button>
+      </div></div>
+      <div class="journey-panel" id="journey-panel" role="tabpanel" aria-live="polite"></div>
+    </section>
+
+    <section class="section section-tint"><div class="shell">
+      <div class="section-heading"><div><p class="eyebrow">PLATFORM MAP</p><h2>七个环节，一条可回溯链路。</h2></div><p>每一次交付都可以追溯到数据、语义修订、门禁证据和责任人。</p></div>
+      <ol class="learning-chain"><li><span>01</span><b>接入数据</b><small>登记、测试、发现</small></li><li><span>02</span><b>语义映射</b><small>对齐、身份、关系</small></li><li><span>03</span><b>构建本体</b><small>TBox、RBox、SHACL</small></li><li><span>04</span><b>验证治理</b><small>质量门、审核、版本</small></li><li><span>05</span><b>实例化</b><small>ABox、增量、PROV-O</small></li><li><span>06</span><b>形成应用</b><small>问答、材料、行动</small></li><li><span>07</span><b>FDE 交付</b><small>验收、交接、复用</small></li></ol>
+    </div></section>
+
+    <section class="section shell">
+      <div class="section-heading"><div><p class="eyebrow">SEMANTIC PRIMER</p><h2>九个词，建立共同语言。</h2></div><p>点击展开定义，无需先掌握知识图谱术语。</p></div>
+      <div class="glossary">
+        <details><summary><b>TBox</b><span>概念模型</span></summary><p>定义类、属性及它们之间的语义关系，是领域知识的结构骨架。</p></details>
+        <details><summary><b>RBox</b><span>关系规则</span></summary><p>描述属性层级、逆关系、传递性与对称性等关系语义。</p></details>
+        <details><summary><b>ABox</b><span>实例知识</span></summary><p>把真实对象及其属性和关系表示为 RDF 实例陈述。</p></details>
+        <details><summary><b>SHACL</b><span>数据约束</span></summary><p>检查实例是否满足数据类型、数量、关系和业务规则。</p></details>
+        <details><summary><b>Revision</b><span>不可变修订</span></summary><p>将本体、映射、工具或应用的内容冻结为可复算版本。</p></details>
+        <details><summary><b>CQ</b><span>能力问题</span></summary><p>本体或应用必须能够回答的业务问题，用于约束范围和验收效果。</p></details>
+        <details><summary><b>PROV-O</b><span>来源证据</span></summary><p>W3C 来源模型，记录陈述来自哪个数据源、批次和转换过程。</p></details>
+        <details><summary><b>ChangeSet</b><span>原子语义变更</span></summary><p>将人工、导入与 AI 变更放入同一批操作中预检并一次性提交。</p></details>
+        <details><summary><b>FDE</b><span>Forward Deployed Engineer</span></summary><p>深入客户场景，把平台能力装配为可验收、可运行、可沉淀复用的解决方案。</p></details>
+      </div>
+    </section>
+
+    <section class="section shell next-callout"><div><p class="eyebrow">NEXT STEP</p><h2>已经理解方法？用一个完整场景走一遍。</h2></div><a class="button primary" href="../demo/">进入标准提案演示 <span aria-hidden="true">→</span></a></section>
+  </main>
+  <footer class="site-footer"><div class="shell"><p>灵·洞本体工作站 · 在线教程</p><small>© <span data-year></span> · 学习进度仅保存于当前浏览器</small></div></footer>
+</body>
+</html>

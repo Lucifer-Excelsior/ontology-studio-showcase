@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="用内置示例数据体验本体如何支撑标准提案分析与受控建议。">
+  <title>交互演示 · 灵·洞本体工作站</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><script src="../assets/theme-init.js"></script><link rel="stylesheet" href="../assets/styles.css"><link rel="stylesheet" href="../assets/refinements.css"><script src="../assets/site.js" defer></script>
+</head>
+<body data-page="demo">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header"><nav class="nav shell" aria-label="主导航">
+    <a class="brand" href="../"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span><strong>灵·洞本体工作站</strong><small>ONTOLOGY STUDIO</small></span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">菜单</button>
+    <div class="nav-links" id="nav-links"><a href="../">产品介绍</a><a href="../tutorial/">在线教程</a><a aria-current="page" href="./">交互演示</a><a href="../#standards">开放标准</a></div>
+    <button class="theme-toggle" type="button" aria-label="切换深浅色模式" aria-pressed="false"><span aria-hidden="true"></span></button>
+  </nav></header>
+  <main id="main">
+    <section class="page-hero shell demo-hero"><div><p class="eyebrow">INTERACTIVE WALKTHROUGH</p><h1>一份标准提案，如何变成可解释的建议？</h1><p>通过一个内置示例，观察资料、语义、规则、证据和人工决策如何连成可追溯链路。</p></div><aside class="demo-safety" role="note"><b>安全演示边界</b><p>不上传文件、不调用模型、不连接数据库、不写入任何系统。所有内容均为浏览器内置示例，非 ITU 正式结论。</p></aside></section>
+
+    <section class="section shell demo-shell" aria-labelledby="demo-title">
+      <div class="case-file">
+        <p class="eyebrow">DEMO CASE · 2026-001</p><h2 id="demo-title">智能体语义互操作框架</h2>
+        <dl><div><dt>材料类型</dt><dd>ITU-T 提案草案</dd></div><div><dt>目标</dt><dd>检查形式与技术完整性</dd></div><div><dt>预期产物</dt><dd>修改建议与候选工作组</dd></div><div><dt>决策边界</dt><dd>建议仅供人工复核</dd></div></dl>
+        <div class="case-progress"><div><span>演示进度</span><b id="demo-progress-label">1 / 5</b></div><progress id="demo-progress" max="5" value="1">1 / 5</progress></div>
+        <button class="text-button" id="demo-reset" type="button">重置演示</button>
+      </div>
+      <div class="demo-workbench">
+        <div class="demo-tabs" role="tablist" aria-label="演示阶段">
+          <button type="button" role="tab" aria-selected="true" data-demo-stage="0"><span>01</span><b>证据入场</b></button>
+          <button type="button" role="tab" aria-selected="false" data-demo-stage="1"><span>02</span><b>语义提取</b></button>
+          <button type="button" role="tab" aria-selected="false" data-demo-stage="2"><span>03</span><b>规则验证</b></button>
+          <button type="button" role="tab" aria-selected="false" data-demo-stage="3"><span>04</span><b>候选建议</b></button>
+          <button type="button" role="tab" aria-selected="false" data-demo-stage="4"><span>05</span><b>人工决策</b></button>
+        </div>
+        <div class="demo-stage" id="demo-stage" role="tabpanel" aria-live="polite"></div>
+        <footer class="demo-controls"><p id="demo-context">内置文档与元数据已就绪。</p><button class="button primary" id="demo-next" type="button">下一步：语义提取 <span aria-hidden="true">→</span></button></footer>
+      </div>
+    </section>
+
+    <section class="section section-tint"><div class="shell evidence-principles">
+      <div><p class="eyebrow">WHY ONTOLOGY</p><h2>这不是把文档丢给模型。</h2><p>本体为每个概念、规则和建议提供稳定身份，使智能体能够在显式业务边界内计划和执行。</p></div>
+      <ol><li><span>1</span><div><b>语义对齐</b><p>将“提案”、“工作组”、“要求”和“证据”变成可计算对象。</p></div></li><li><span>2</span><div><b>规则显式</b><p>将形式检查、范围匹配与风险门禁表达为可验证规则。</p></div></li><li><span>3</span><div><b>证据可追溯</b><p>每条建议回指材料段落、本体版本和规则版本。</p></div></li><li><span>4</span><div><b>权限不越界</b><p>系统可以生成建议和计划，正式提交仍需有权限的人确认。</p></div></li></ol>
+    </div></section>
+    <section class="section shell next-callout"><div><p class="eyebrow">FROM DEMO TO PRACTICE</p><h2>要在真实数据上运行，请进入本地工作区。</h2><p>本页不会向任何服务器发送材料或凭据。</p></div><a class="button secondary" href="../tutorial/">查看完整操作路线</a></section>
+  </main>
+  <footer class="site-footer"><div class="shell"><p>灵·洞本体工作站 · 纯前端交互演示</p><small>© <span data-year></span> · 非 ITU 正式结论</small></div></footer>
+</body>
+</html>

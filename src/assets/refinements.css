@@ -1,0 +1,13 @@
+.section-dark .eyebrow,
+.case-file .eyebrow {
+  color: #86c8ff;
+}
+
+html[data-theme="dark"] .button.primary {
+  background: #17609f;
+  color: #fff;
+}
+
+html[data-theme="dark"] .button.primary:hover {
+  background: #0f4d8c;
+}
